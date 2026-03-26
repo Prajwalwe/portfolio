@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
     <footer class="py-5 border-top border-secondary border-opacity-10 bg-dark-primary">
       <div class="container text-center">
         <h4 class="fw-bold mb-4">
-          <span class="text-accent-blue">P</span>rajwal<span class="text-accent-green">.</span>
+          <span class="text-accent-blue">P</span>rajwal
         </h4>
         <div class="d-flex justify-content-center gap-4 mb-4">
           <a href="#home" class="text-muted fs-6">Home</a>
@@ -21,7 +21,7 @@ import { CommonModule } from '@angular/common';
         <div class="mb-4">
            <a href="https://linkedin.com/in/prajwalhpp" target="_blank" class="mx-2 text-muted fs-5"><i class="bi bi-linkedin"></i></a>
            <a href="https://github.com/prajwalwe" target="_blank" class="mx-2 text-muted fs-5"><i class="bi bi-github"></i></a>
-           <a href="mailto:prajwalhpp1&#64;gmail.com" class="mx-2 text-muted fs-5"><i class="bi bi-envelope"></i></a>
+           <a href="mailto:prajwalhpp1@gmail.com" class="mx-2 text-muted fs-5"><i class="bi bi-envelope"></i></a>
         </div>
         <p class="text-muted small mb-0">
           &copy; {{ currentYear }} Prajwal H P. Built with <span class="text-danger">❤</span> using Angular 19 & Bootstrap 5.1.

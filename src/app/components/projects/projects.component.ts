@@ -35,7 +35,7 @@ interface Project {
                 <span class="badge rounded-pill bg-dark border border-secondary text-light px-2" *ngFor="let t of p.tech">{{ t }}</span>
               </div>
               <a [href]="p.link" target="_blank" class="mt-auto text-accent-blue fw-bold d-flex align-items-center gap-2 view-project">
-                View Details <i class="bi bi-arrow-right"></i>
+                View <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -68,26 +68,27 @@ export class ProjectsComponent {
     {
       title: 'Meme Platform',
       description: 'A full-stack social platform for meme enthusiasts with .NET 8 Web API, Angular frontend, and Azure Blob Storage for media hosting.',
-      tech: ['.NET 8', 'Angular 19', 'Azure', 'SQL Server'],
+      tech: ['Angular 19', '.NET 8', 'Azure'],
       link: 'https://github.com/prajwalwe',
       icon: 'bi-image-fill',
       color: '#00d2ff'
     },
     {
-      title: 'Blood Bridge',
-      description: 'Location-based connectivity platform connecting blood donors with recipients in real-time with integrated WhatsApp notifications.',
-      tech: ['Angular', 'Node.js', 'Maps API', 'WhatsApp API'],
-      link: 'https://github.com/prajwalwe',
-      icon: 'bi-droplet-fill',
-      color: '#ff4b2b'
-    },
-    {
       title: "Doctor's Assistant",
       description: 'AI-driven medical support system featuring diagnostic assistance and an intelligent chatbot for preliminary patient guidance.',
-      tech: ['Python', 'AI/ML', 'Angular', 'FastAPI'],
+      tech: ['Angular', '.NET 8', 'Azure', 'Google AI Studio API'],
       link: 'https://github.com/prajwalwe',
       icon: 'bi-capsule',
       color: '#00ff88'
-    }
+    },
+    {
+      title: 'Blood Bridge',
+      description: 'Location-based connectivity platform connecting blood donors with recipients in real-time with integrated WhatsApp notifications.',
+      tech: ['Angular 19', '.NET 8', 'SQL Server', 'WhatsApp API'],
+      link: 'https://prajwalwe.github.io/BloodBridge/',
+      icon: 'bi-droplet-fill',
+      color: '#ff4b2b'
+    },
+
   ];
 }

@@ -17,14 +17,15 @@ import { CommonModule } from '@angular/common';
             <h2 class="h3 mb-4 text-white">
               I am a <span class="text-accent-green">{{ displayText }}</span><span class="cursor">|</span>
             </h2>
-            <p class="lead text-muted mb-5 col-md-10">
-              Information Science and Engineering student at Acharya Institute of Technology. 
-              Specialist Programmer at Infosys Select. Passionate about building high-performance 
-              web applications using Angular 19 and .NET 8.
+            <p class="lead text-muted mb-5 col-md-10"> 
+              Specialist Programmer Trainee at Infosys. 
+              Information Science and Engineering student at Acharya Institute of Technology.
+              Passionate about building high-performance 
+              web applications using Angular 19, .NET 8 and Azure.
             </p>
             <div class="d-flex gap-3">
               <a href="https://drive.google.com/file/d/1rPQba4ZVqRUtHXBHnZjZdOSi3w-YrC8R/view?usp=sharing" target="_blank" class="btn btn-primary-custom">
-                <i class="bi bi-file-earmark-pdf me-2"></i>Download Resume
+                <i class="bi bi-file-earmark-pdf me-2"></i>Resume
               </a>
               <a href="#contact" class="btn btn-outline-light rounded-pill px-4 py-2 border-2 fw-600">
                 Let's Talk
@@ -78,9 +79,9 @@ import { CommonModule } from '@angular/common';
 })
 export class HeroComponent implements OnInit, OnDestroy {
   roles: string[] = [
+    'Specialist Programmer @ Infosys',
     'Angular Specialist',
     '.NET Developer',
-    'Specialist Programmer &#64; Infosys',
     'Full Stack Engineer',
     'ISE Student'
   ];

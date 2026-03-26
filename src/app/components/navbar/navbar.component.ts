@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
       <div class="container py-2">
         <a class="navbar-brand fw-bold fs-3" href="#">
-          <span class="text-accent-blue">P</span>rajwal<span class="text-accent-green">.</span>
+          <span class="text-accent-blue">P</span>rajwal
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>

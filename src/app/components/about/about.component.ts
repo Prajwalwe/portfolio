@@ -23,7 +23,7 @@ import { CommonModule } from '@angular/common';
             <h2 class="display-5 mb-4 fw-bold">Building Digital Solutions with <span class="text-accent-blue">Purpose</span></h2>
             <p class="text-muted mb-4 lead">
               I am an Information Science and Engineering student at Acharya Institute of Technology with a CGPA of 7.8. 
-              As a <strong>Specialist Programmer (Infosys Select)</strong>, I focus on creating high-quality, 
+              As a <b><strong>Specialist Programmer Trainee at Infosys</strong></b>, I focus on creating high-quality, 
               scalable, and responsive web applications.
             </p>
             <p class="text-muted mb-5">

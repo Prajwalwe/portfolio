@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
             <h2 class="display-5 mb-4 fw-bold">Technical <span class="text-accent-blue">Proficiency</span></h2>
             <p class="text-muted pb-3">
               I specialize in full-stack development with a deep focus on 
-              <strong>Angular</strong> and <strong>.NET</strong>. 
+              <strong>Angular</strong> <strong> .NET</strong> and <strong>Azure</strong>. 
               My education at Acharya Institute of Technology has provided me with
               a strong foundation in Computer Science principles and Information Science.
             </p>
@@ -44,6 +44,15 @@ import { CommonModule } from '@angular/common';
                   </div>
                   <div class="progress" style="height: 6px; background: rgba(255,255,255,0.05)">
                     <div class="progress-bar" style="width: 80%; background: var(--accent-blue)"></div>
+                  </div>
+               </div>
+               <div class="skill-item">
+                  <div class="d-flex justify-content-between mb-1">
+                    <span class="fw-bold">Cloud (Azure)</span>
+                    <span class="text-accent-blue">85%</span>
+                  </div>
+                  <div class="progress" style="height: 6px; background: rgba(255,255,255,0.05)">
+                    <div class="progress-bar" style="width: 85%; background: var(--accent-green)"></div>
                   </div>
                </div>
             </div>
@@ -88,7 +97,7 @@ export class SkillsComponent {
     { name: 'Python', icon: 'bi-filetype-py', color: '#3776ab' },
     { name: 'Azure', icon: 'bi-cloud-check-fill', color: '#0089d6' },
     { name: 'C#', icon: 'bi-hash', color: '#239120' },
-    { name: 'TypeScript', icon: 'bi-filetype-ts', color: '#3178c6' },
+    { name: 'TypeScript', icon: 'bi bi-typescript', color: '#3178c6' },
     { name: 'Git', icon: 'bi-git', color: '#f05032' }
   ];
 }
