@@ -84,7 +84,7 @@ export class ProjectsComponent {
     {
       title: 'Blood Bridge',
       description: 'Location-based connectivity platform connecting blood donors with recipients in real-time with integrated WhatsApp notifications.',
-      tech: ['Angular 19', '.NET 8', 'SQL Server', 'WhatsApp API'],
+      tech: ['HTML', 'CSS', 'JavaScript', 'WhatsApp API'],
       link: 'https://prajwalwe.github.io/BloodBridge/',
       icon: 'bi-droplet-fill',
       color: '#ff4b2b'
