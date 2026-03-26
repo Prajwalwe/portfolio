@@ -36,7 +36,7 @@ import { CommonModule } from '@angular/common';
             <div class="hero-image-container ms-auto">
                <div class="hero-shape"></div>
                <!-- Placeholder for profile image if available -->
-               <img src="https://ui-avatars.com/api/?name=Prajwal+HP&background=0b0e14&color=00d2ff&size=512&bold=true" class="img-fluid rounded-circle border border-5 border-accent-blue shadow-lg" alt="Prajwal">
+               <img src="https://image2url.com/r2/default/images/1774526469008-a0180c2b-3a03-4be2-942f-77a4054328d9.jpeg" class="img-fluid rounded-circle border border-5 border-accent-blue shadow-lg" alt="Prajwal">
             </div>
           </div>
         </div>
