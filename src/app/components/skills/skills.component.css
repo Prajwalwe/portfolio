@@ -1,0 +1,16 @@
+ .skill-badge-card {
+     background: var(--card-bg);
+     border-radius: 15px;
+     border: 1px solid rgba(255, 255, 255, 0.05);
+     transition: all 0.3s ease;
+ }
+
+ .skill-badge-card:hover {
+     border-color: var(--accent-green);
+     transform: scale(1.05);
+     background: var(--hover-bg);
+ }
+
+ .skill-icon-wrap {
+     font-size: 2.5rem;
+ }

@@ -1,0 +1,50 @@
+.bg-accent-blue-gradient {
+    background: linear-gradient(135deg, #00d2ff 0%, #00a8ff 100%);
+}
+
+.contact-icon-box {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.social-btn {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: white;
+    color: var(--accent-blue);
+    transform: translateY(-3px);
+}
+
+.custom-input {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 12px;
+}
+
+.custom-input:focus {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--accent-blue);
+    box-shadow: none;
+    color: white;
+}
+
+.form-label {
+    letter-spacing: 1px;
+}
